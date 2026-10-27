@@ -1,4 +1,4 @@
-# Kasun-Recon-Nexus 🛡️🚀
+# Kasun-Recon-Nexus 🛡️
 
 > **Kasun-Recon-Nexus** is an advanced, automated reconnaissance and vulnerability scanning tool built specifically for CTF (Capture The Flag) challenges and Bug Bounty hunting.
 
@@ -19,19 +19,14 @@
 * **Multi-Threading:** High-performance concurrent scanning.
 
 ---
-
 ## ⚙️ Installation & Usage (Kali Linux)
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone [https://github.com/kasunthaudula62-sys/kasun-nexus.git](https://github.com/kasunthaudula62-sys/kasun-nexus.git)
-   chmod +x kasun_nexus.py
+   cd kasun-nexus
 2.Make it executable:
-```bash 
+```
 chmod +x kasun_nexus.py
 3.Run the tool:
 python3 kasun_nexus.py -t <TARGET_IP_OR_DOMAIN> -o report.txt
-
-
-
-
